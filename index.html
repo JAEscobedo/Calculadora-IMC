@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Ejemplo If-switch</title>
+</head>
+<body>
+    
+    <h1>Ejemplo switch-case</h1>
+    
+    <h2>Indica el IMC de una persona</h2>
+    <div class="contenedor-campos">
+        <div class="datos">
+            <label for="">Ingresa tu peso en kg</label>
+            <input type="number" id="peso">
+            <label for="">Ingresa tu altura en metros</label>
+            <input type="number" name="" id="altura">
+        </div>
+
+        <div class="resultado">
+            <h3>Resultados: </h3>
+            <h3 class="IMC" id="imcres">IMC</h3>
+            <h3 class="imcResult" id="imc">Rango</h3>
+            <input class="boton" onclick="imcFcn()" type="button" value="calcular"><!--Importante el uso del ID-->
+        </div>
+    </div>
+    <footer class="footer">Todos los derechos reservados © 2023 Alejandro Escobedo</footer>
+    <script src="/funciones.js"></script>
+</body>
+</html>
